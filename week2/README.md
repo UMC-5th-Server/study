@@ -1,7 +1,9 @@
 추가 스터디 2주차 핵심개념 정리
 
 CallBack 함수 
+
 Synchoronous callback : 동기 콜백 
+
 Asynchoronous callback : 비동기 콜백 
 
   
