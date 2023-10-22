@@ -13,6 +13,7 @@ state, producer와 consumer의 차이점을 이해하자
 *대기(Pending): Promise 객체가 생성되고 아직 처리되지 않은 초기 상태  
   
 
+
 동기/비동기  
 async & await  
 동기 : 동기적 작업은 순차적으로 진행되며, 한 작업이 완료되기를 기다린 후 다음 작업을 시작  
