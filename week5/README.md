@@ -8,10 +8,12 @@ JDBC ( JAVA DATABASE CONNECTIVITY) JAVA API
 DB에 따라 일관성 없는 정보를 가진 채로 SQLException처리
 
 
+
 Persistence Framework : 
 JDC 프로그래밍의 복잡함이나 번거로움 없이 간단한 작업만으로 데이터 베이스와 연동되는 시스템을 빠르게 개발
 
 ORM, SQL MAPPER 으로 나눌 수 있다. 
+
 
 
 SQL MAPPER : SQL을 직접 작성. SQL문과 객체의 필드를 매핑하여 데이터를 객체화
@@ -19,6 +21,7 @@ SQL MAPPER : SQL을 직접 작성. SQL문과 객체의 필드를 매핑하여 �
 문제점 : 특정DB에 종속적으로 사용하기 쉽다
 
 테이블마다 비슷한 CRUD SQL = DAO 개발이 매우 반복되는 작업, 패러다임 불일치 문제
+
 
 
 ORM (Object-relational mapping)(객체 관계 매핑)
