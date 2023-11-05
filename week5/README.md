@@ -20,4 +20,7 @@ SQL Query가 아닌 직관적인 코드(메서드)로 데이터 조작
 => 객체의 참조를 외래키로 변환
 복잡한 쿼리 => JPQL, SQL자체 쿼리, SQL Mapper 사용!
 
+# node ORM - Sequelize
+
+
 
