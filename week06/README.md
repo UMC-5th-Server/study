@@ -7,6 +7,8 @@
 - Node가 이미 설치되어 있다면
 - npm install -g typescript 명령어를 통해 전역적으로 설치
 
+<br>
+
 2. 개발환경 셋팅
 
 ```
@@ -42,6 +44,8 @@
 > Set-ExecutionPolicy Bypass
 ```
 
+<br>
+
 3. tsc 컴파일 자동적용 및 실행 스크립트 적용
 
 ```
@@ -63,6 +67,8 @@
 "start": "concurrently npm:start:*"
 ```
 
+<br><br>
+
 ### 2. TypeScript Basic Types
 
 - JavaScript 기본 자료형을 포함
@@ -83,6 +89,8 @@
   - Enum
   - Tuple (Object형)
 
+<br><br>
+
 ### 3. var, let, const
 
 - var
@@ -97,6 +105,8 @@
   - 변수의 유효 범위: 블록 scope
   - 호이스팅 불가
   - 재선언 불가
+
+<br><br>
 
 ### 4. TypeAssertion
 
