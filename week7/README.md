@@ -14,3 +14,6 @@ private이 붙은 변수나 함수는 _를 이름앞에 붙이는데, 이는 문
 클래스 내부에 작성된 메서드는 public이 디폴트<br>
 arow function 으로 작성 가능<br>
 private을 이용하여 클래스 외부에서 접근 불가<br>
+<br><br><br>
+Generic Array
+hello 함수의 제네릭 타입 []을 이용하여 배열로 사용할 수 있음
