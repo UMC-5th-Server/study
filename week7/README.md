@@ -1,5 +1,5 @@
 interface <br>
-타입스크립트에서는 새로운 타입을 정할 때 type키워드와 interface 키워드를 사용한다.<br>
+타입스크립트에서는 새로운 타입을 정할 때 type키워드와 interface 키워드를 사용한다.<br> 
 interface에는 타입스크립트만의 특별한 지정자를 추가할 수 있으며 interface 안의 항목에 함수 형태도 지정할 수 있음<br>
 interface는 type 과 확장정에 있어서 차이가 있는데 interface방식의 객체 지정은 새로운 항목을 자유롭게 추가할 수 있다.
 extends 키워드로 확장도 가능
