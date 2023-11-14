@@ -1,6 +1,7 @@
-<iterator>
 
-- for..in -<br>
+<iterator><br>
+
+for..in <br>
 배열을 순회할 때는 사용하지 않을 것<br>
 
 <br>
@@ -14,7 +15,7 @@ Array, Map, Set, String, Int32Array, Unit32Array, etc.에는 내장된 구현체
 이터레이블를 통해 이터러블한 객체의 Symbol.iterator 함수를 호출<br>
 <br><br>
 
-<Decorator><br>
+Decorator<br>
 Class Decorator<br>
 Mathod Decorator<br>
 Property Decorator<br>
