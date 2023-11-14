@@ -1,11 +1,26 @@
 {
   "dependencies": {
-    "mysql": "^2.18.1"
+    "concurrently": "^8.2.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.2"
-  }
+  },
+  "name": "node_practice",
+  "description": "UMC 5th Node.js 스터디",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
