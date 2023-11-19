@@ -40,8 +40,8 @@
 # Class
     class Person2 {
         name: string;               //타입 미지정 public
-        protected age: number;        //이 클래스 내에서만 접근
-        private phone: string;    //부모, 자식에서만 접근
+        protected age: number;      //이 클래스 내에서만 접근
+        private phone: string;      //부모, 자식에서만 접근
 
         constructor (name: string) {    //private name: string 가능 (위에서 선언X)
             this.name = name;   
@@ -99,6 +99,7 @@
     }
 
 - Generic Class
+
     class Person4<T> {
         private name: T;
         constructor (name: T) {
@@ -108,9 +109,11 @@
     const dada = new Person4('dada');
 
 - Generic with extends
+
     class Person4<T extends string | number> { ... }
 
 - muti Generic
+
     class Person4<T, K> {
         private name: T;
         private age: K;
@@ -122,6 +125,7 @@
     const dada = new Person4('dada', 23);
 
 - type lookup system
+
     interface Person5 {
         name: string;
         age: number;
