@@ -5,7 +5,7 @@
 - for...of
 
 ```
-- es6
+- es3
 for(var i=0; i<array.length; i++)
 
 - es5
